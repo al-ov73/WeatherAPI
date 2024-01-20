@@ -1,9 +1,10 @@
 import requests
+import os
 
 
 # s_city = "Ulyanovsk (RU)"
 city_id = 479119
-appid = "f9c970b644cece4b3ace8d77637b70f4"
+appid = os.getenv('WEATHER_ID')
 
 # Проверка наличия в базе информации о нужном населенном пункте
 
